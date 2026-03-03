@@ -9,6 +9,9 @@ async function loadData() {
     renderTheories();
     renderPowers();
     renderConflicts();
+    renderWorldOverview();
+    renderHistoricalCrises();
+    renderImportantFigures();
     renderQuiz();
   } catch (error) {
     console.error('Error loading data:', error);
@@ -65,6 +68,77 @@ function renderConflicts() {
     const li = document.createElement('li');
     li.innerHTML = `<strong>${c.name}</strong> – <em>${c.type}</em><br>${c.note}`;
     ul.appendChild(li);
+  });
+}
+
+function renderWorldOverview() {
+  const container = document.getElementById('world-regions');
+  container.innerHTML = '';
+  dataStore.worldOverview.forEach(region => {
+    const card = document.createElement('div');
+    card.className = 'region-card';
+    card.innerHTML = `
+      <h3>${region.region}</h3>
+      <div class="region-stat"><strong>Political System:</strong> ${region.politicalSystem}</div>
+      <div class="region-stat"><strong>Democracy Score:</strong> ${region.democracyScore}</div>
+      <div class="region-stat"><strong>Active Conflicts:</strong> ${region.activeConflicts}</div>
+      <div class="region-details">
+        <p><strong>How They Do Politics:</strong> ${region.politicsStyle}</p>
+        <p><strong>Key Challenges:</strong> ${region.challenges}</p>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function renderHistoricalCrises() {
+  const container = document.getElementById('crisis-timeline');
+  container.innerHTML = '';
+  dataStore.historicalCrises.forEach(crisis => {
+    const card = document.createElement('div');
+    card.className = 'crisis-card';
+    card.innerHTML = `
+      <div class="crisis-header">
+        <h3>${crisis.name}</h3>
+        <span class="crisis-year">${crisis.year}</span>
+      </div>
+      <p class="crisis-description">${crisis.description}</p>
+      <div class="crisis-actors">
+        <strong>Key Actors:</strong> ${crisis.actors}
+      </div>
+      <div class="crisis-approach">
+        <strong>Political Approach:</strong> ${crisis.approach}
+      </div>
+      <div class="crisis-impact">
+        <strong>Impact:</strong> ${crisis.impact}
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function renderImportantFigures() {
+  const container = document.getElementById('figures-grid');
+  container.innerHTML = '';
+  dataStore.importantFigures.forEach(figure => {
+    const card = document.createElement('div');
+    card.className = 'figure-card';
+    card.innerHTML = `
+      <div class="figure-header">
+        <h3>${figure.name}</h3>
+        <span class="figure-years">${figure.years}</span>
+      </div>
+      <div class="figure-country">${figure.country}</div>
+      <div class="figure-role">${figure.role}</div>
+      <p class="figure-description">${figure.description}</p>
+      <div class="figure-approach">
+        <strong>Political Style:</strong> ${figure.politicalStyle}
+      </div>
+      <div class="figure-legacy">
+        <strong>Legacy:</strong> ${figure.legacy}
+      </div>
+    `;
+    container.appendChild(card);
   });
 }
 
