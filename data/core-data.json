@@ -101,6 +101,307 @@
       "note": "Civil war since 2011 involving Assad regime, rebels, ISIS remnants, Kurdish forces, Turkey, Russia, Iran. 500,000+ deaths. Massive refugee crisis affecting Europe and Middle East."
     }
   ],
+  "worldOverview": [
+    {
+      "region": "🌍 North America",
+      "politicalSystem": "Liberal Democracy",
+      "democracyScore": "8.5/10 (V-Dem 2026)",
+      "activeConflicts": "Low (mainly drug cartels in Mexico)",
+      "politicsStyle": "Electoral democracy with strong institutions, federal systems (USA, Canada), multi-party competition. Politics dominated by campaigns, lobbying, and media influence. Presidential (USA) vs parliamentary (Canada) systems.",
+      "challenges": "US democratic backsliding under Trump administration, polarization, immigration debates, trade tensions with China, USMCA implementation."
+    },
+    {
+      "region": "🌎 Latin America",
+      "politicalSystem": "Mixed (Electoral Democracies & Autocracies)",
+      "democracyScore": "6.2/10 average",
+      "activeConflicts": "Medium (Venezuela crisis, gang violence)",
+      "politicsStyle": "Presidential systems with weak institutions. Populism common (left and right). Frequent constitutional crises, military involvement in politics. Strong informal networks and clientelism. Social movements powerful.",
+      "challenges": "Venezuela humanitarian crisis, Nicaragua autocracy, corruption, inequality, climate migration, Chinese economic influence, US intervention legacy."
+    },
+    {
+      "region": "🇪🇺 Europe",
+      "politicalSystem": "Liberal & Electoral Democracies",
+      "democracyScore": "8.1/10 average (West), 6.5/10 (East)",
+      "activeConflicts": "High (Ukraine war spillover)",
+      "politicsStyle": "Parliamentary democracies, coalition governments, strong welfare states, multi-party systems. EU supranational governance. Consensus-building culture in North, more polarized in East. High civic participation.",
+      "challenges": "Ukraine war, energy crisis, migration, far-right rise, EU unity, Russian hybrid warfare, economic stagnation, demographic decline."
+    },
+    {
+      "region": "🌏 East Asia",
+      "politicalSystem": "Mixed (Democracies & Autocracies)",
+      "democracyScore": "5.8/10 average",
+      "activeConflicts": "Medium (Taiwan Strait, North Korea)",
+      "politicsStyle": "China: One-party authoritarian capitalism, surveillance state, social credit. Japan/South Korea: Liberal democracies with dominant parties. North Korea: Totalitarian hereditary dictatorship. Strong state bureaucracies, economic nationalism.",
+      "challenges": "Taiwan invasion risk, North Korea nukes, US-China rivalry, South China Sea disputes, aging populations, economic slowdown in China."
+    },
+    {
+      "region": "🕌 Middle East & North Africa",
+      "politicalSystem": "Mostly Autocracies",
+      "democracyScore": "3.2/10 average",
+      "activeConflicts": "Very High (Syria, Yemen, Gaza, Iraq)",
+      "politicsStyle": "Monarchies (Gulf states), military regimes (Egypt, Syria), theocracy (Iran), hybrid (Turkey). Patronage networks, tribal politics, religious authority. Weak civil society, limited political freedoms. Oil wealth shapes governance.",
+      "challenges": "Israeli-Palestinian conflict, Iran nuclear program, Syrian war, Yemen crisis, Saudi-Iran rivalry, ISIS remnants, water scarcity, youth unemployment."
+    },
+    {
+      "region": "🌍 Sub-Saharan Africa",
+      "politicalSystem": "Mixed (Hybrid Regimes)",
+      "democracyScore": "4.7/10 average",
+      "activeConflicts": "Very High (Sudan, Ethiopia, DRC, Sahel)",
+      "politicsStyle": "Presidential systems with weak institutions. Neopatrimonialism: personal rule through patronage. Ethnic-based politics. Military coups frequent (Mali, Niger, Burkina Faso). Election rigging common. Strong informal power structures.",
+      "challenges": "Sudan civil war, Ethiopian conflicts, DRC instability, jihadist insurgencies in Sahel, coups, climate disasters, Chinese debt, youth bulge, corruption."
+    },
+    {
+      "region": "🇮🇳 South Asia",
+      "politicalSystem": "Electoral Democracies & Autocracies",
+      "democracyScore": "5.4/10 average",
+      "activeConflicts": "High (Kashmir, Pakistan insurgencies)",
+      "politicsStyle": "India: Electoral democracy with Hindu nationalist trend under Modi, populist appeals. Pakistan: Hybrid regime with military influence. Bangladesh: Autocratizing democracy. Politics shaped by religion, caste, ethnicity. Dynastic politics common.",
+      "challenges": "India-Pakistan tensions, Kashmir conflict, Bangladesh autocracy, Afghanistan instability, climate vulnerability, water conflicts, religious nationalism."
+    },
+    {
+      "region": "🇷🇺 Russia & Central Asia",
+      "politicalSystem": "Autocracies",
+      "democracyScore": "2.1/10 average",
+      "activeConflicts": "Very High (Ukraine war)",
+      "politicsStyle": "Russia: Authoritarian personalist regime (Putin), managed democracy, siloviki (security services) dominance, propaganda control. Central Asia: Post-Soviet autocracies with presidential cults, clan politics, security apparatus control.",
+      "challenges": "Ukraine war consequences, economic sanctions on Russia, succession uncertainty, Chinese influence in Central Asia, ethnic tensions, resource dependence."
+    }
+  ],
+  "historicalCrises": [
+    {
+      "name": "Great Depression",
+      "year": "1929-1939",
+      "description": "Worst economic collapse of 20th century. Wall Street crash 1929 triggered global recession with 25% unemployment in US, bank failures, poverty. Led to political extremism.",
+      "actors": "USA (Hoover, FDR), Germany (Weimar Republic collapse), UK, France, global banking system",
+      "approach": "USA: New Deal (Keynesian stimulus, welfare state, regulations). Germany: Turn to Nazism, autarky. UK: Protectionism. International cooperation failed.",
+      "impact": "Rise of fascism, WWII roots, Keynesian economics adopted, welfare states created, Bretton Woods system established post-war."
+    },
+    {
+      "name": "World War II",
+      "year": "1939-1945",
+      "description": "Deadliest conflict in history: 70-85 million deaths. Nazi Germany's expansion, Holocaust, Pacific War. Total war involving civilians, genocide, nuclear weapons.",
+      "actors": "Axis (Germany/Hitler, Japan/Hirohito, Italy/Mussolini) vs Allies (USA/FDR-Truman, UK/Churchill, USSR/Stalin, France)",
+      "approach": "Germany: Lebensraum expansion, racial ideology, totalitarian mobilization. Allies: Appeasement failed, total war, strategic bombing, Manhattan Project. USSR: Scorched earth.",
+      "impact": "UN created, Cold War began, decolonization wave, NATO/Warsaw Pact, nuclear age, Holocaust trauma, human rights norms, US-Soviet bipolarity."
+    },
+    {
+      "name": "Cold War (Cuban Missile Crisis peak)",
+      "year": "1947-1991 (1962 peak)",
+      "description": "US-Soviet rivalry defined global politics. Proxy wars, arms race, ideological competition. Cuban Missile Crisis (1962) nearly caused nuclear war. Détente periods alternated with tensions.",
+      "actors": "USA (Truman-Reagan-Bush Sr.), USSR (Stalin-Khrushchev-Gorbachev), Non-Aligned Movement, NATO, Warsaw Pact",
+      "approach": "USA: Containment doctrine, Marshall Plan, military alliances, covert operations. USSR: Communist expansion, support for liberation movements. Both: Nuclear deterrence (MAD), proxy wars.",
+      "impact": "Proxy wars (Korea, Vietnam, Afghanistan), space race, nuclear proliferation, Third World independence movements, eventual Soviet collapse, US unipolar moment."
+    },
+    {
+      "name": "Decolonization Wave",
+      "year": "1945-1975",
+      "description": "Collapse of European empires post-WWII. 100+ new states gained independence in Africa, Asia, Middle East. Often violent transitions, arbitrary borders created conflicts.",
+      "actors": "UK, France, Belgium, Portugal (colonizers); India (Nehru, Gandhi), Ghana (Nkrumah), Algeria (FLN), Indonesia (Sukarno), Vietnam (Ho Chi Minh)",
+      "approach": "Colonizers: Gradual withdrawal (UK) vs violent resistance (France in Algeria). Independence movements: Armed struggle, non-violence, negotiation. Cold War powers competed for influence.",
+      "impact": "New nation-states, Non-Aligned Movement, artificial borders fueled conflicts, neo-colonialism debates, North-South divide, development challenges."
+    },
+    {
+      "name": "Oil Crisis (OPEC Embargo)",
+      "year": "1973-1974",
+      "description": "OPEC oil embargo against West for supporting Israel in Yom Kippur War. Oil prices quadrupled, causing stagflation in developed economies. Revealed Western energy vulnerability.",
+      "actors": "OPEC (Saudi Arabia, Iran, UAE, Kuwait), USA (Nixon), Israel, Arab states",
+      "approach": "OPEC: Oil as political weapon, production cuts. USA: Diplomatic engagement, strategic reserves, fuel efficiency standards. West: Economic recession, inflation, search for alternative energy.",
+      "impact": "Stagflation crisis, OPEC power demonstrated, petrodollar system, Western energy policy shifts, Middle East leverage increased, Japanese car industry rise."
+    },
+    {
+      "name": "Fall of Soviet Union",
+      "year": "1989-1991",
+      "description": "Communist bloc collapsed. Berlin Wall fell 1989, USSR dissolved 1991. Peaceful end to Cold War. 15 new states emerged from Soviet Union.",
+      "actors": "USSR (Gorbachev), Russia (Yeltsin), Eastern European dissidents (Walesa, Havel), USA (Reagan, Bush Sr.), Germany (Kohl)",
+      "approach": "Gorbachev: Glasnost (openness), perestroika (restructuring), refused military intervention. Eastern Europe: Peaceful revolutions (except Romania). West: Encouraged reform, German reunification.",
+      "impact": "End of Cold War, US sole superpower, NATO expansion, EU enlargement, liberal democracy's 'end of history' moment, Russian economic collapse, ethnic conflicts (Yugoslavia)."
+    },
+    {
+      "name": "9/11 Terrorist Attacks",
+      "year": "2001",
+      "description": "Al-Qaeda terrorists hijacked planes, attacking World Trade Center and Pentagon. 3,000 deaths. Redefined US foreign policy, launched 'War on Terror'.",
+      "actors": "USA (Bush Jr.), Al-Qaeda (Osama bin Laden), Afghanistan (Taliban), NATO allies",
+      "approach": "USA: Invasion of Afghanistan (2001), Iraq War (2003), Patriot Act surveillance, drone warfare, Guantanamo detention. Coalition of the Willing. NATO Article 5 invoked.",
+      "impact": "20-year Afghanistan war, Iraq War chaos, ISIS emergence, erosion of civil liberties, Islamophobia rise, destabilized Middle East, drone warfare normalized, trillions spent."
+    },
+    {
+      "name": "Global Financial Crisis",
+      "year": "2007-2008",
+      "description": "US housing bubble burst triggered global recession. Lehman Brothers collapsed. Banking crisis spread worldwide. Worst economic crisis since Great Depression.",
+      "actors": "USA (Bush Jr., Obama), Federal Reserve (Bernanke), Wall Street banks, European Central Bank, G20",
+      "approach": "USA: Bank bailouts (TARP), stimulus packages, quantitative easing. Europe: Austerity measures. G20 coordination. Dodd-Frank regulations (later weakened).",
+      "impact": "Great Recession, sovereign debt crisis in Europe, populist backlash, Occupy Wall Street, mistrust of elites, rise of anti-establishment politics, wealth inequality increased."
+    },
+    {
+      "name": "Arab Spring",
+      "year": "2010-2012",
+      "description": "Pro-democracy uprisings across Arab world. Tunisia's Ben Ali overthrown, Egypt's Mubarak fell, Libya's Gaddafi killed, Syria descended into civil war. Hope turned to chaos.",
+      "actors": "Tunisia, Egypt (Mubarak, then military), Libya (Gaddafi), Syria (Assad), Yemen, Bahrain. USA (Obama), Gulf monarchies, Russia",
+      "approach": "Protesters: Social media mobilization, mass demonstrations. Regimes: Repression (Syria, Bahrain) or concessions (Tunisia). West: Mixed support. Russia/Iran backed Assad.",
+      "impact": "Only Tunisia democratized. Syria civil war (500K+ deaths). Libya state collapse. ISIS rise. Refugee crisis to Europe. Authoritarian resilience demonstrated. Democratic hopes crushed."
+    },
+    {
+      "name": "COVID-19 Pandemic",
+      "year": "2020-2023",
+      "description": "Global pandemic originating in China. 7+ million official deaths worldwide. Lockdowns, economic collapse, vaccine development race. Exposed global healthcare weaknesses.",
+      "actors": "WHO, China (Xi), USA (Trump, Biden), EU, vaccine companies (Pfizer, Moderna), developing countries",
+      "approach": "China: Strict lockdowns, contact tracing, censorship. West: Varied responses (Sweden vs Italy). Operation Warp Speed (vaccines). Vaccine nationalism. Misinformation spread.",
+      "impact": "Massive economic recession, supply chain disruptions, remote work revolution, vaccine inequity, populist governments struggled, China's model debated, mental health crisis, inflation."
+    },
+    {
+      "name": "Russia Invades Ukraine",
+      "year": "2022-present",
+      "description": "Russia's full-scale invasion February 24, 2022. Largest European war since WWII. Ukrainian resistance surprised world. Reshaping European security order.",
+      "actors": "Russia (Putin), Ukraine (Zelensky), NATO (USA/Biden, UK, Poland), EU, China (neutral)",
+      "approach": "Russia: Blitzkrieg failed, attrition warfare, war crimes. Ukraine: Total mobilization, Western weapons. West: Sanctions, military aid, energy pivot. Russia-China alignment deepened.",
+      "impact": "NATO revitalized, Finland/Sweden joined, European rearmament, energy crisis, global food insecurity, nuclear threats, Russia isolated, authoritarian-democratic divide sharpened."
+    },
+    {
+      "name": "US Democratic Crisis (Trump Era)",
+      "year": "2016-present",
+      "description": "Trump presidency (2017-2021, 2025-present) challenged democratic norms. January 6 Capitol attack (2021). 2024 reelection despite legal issues. Polarization extreme.",
+      "actors": "USA (Trump, Biden, Republican Party, Democrats), Supreme Court, media ecosystem, MAGA movement",
+      "approach": "Trump: Populist nationalism, 'America First', institutional defiance, false election claims. Opponents: Impeachments, investigations, resistance. Court battles. Social media amplification.",
+      "impact": "Democratic backsliding in USA, institutional strain, political violence normalized, global democracy in retreat, US alliances strained, authoritarian leaders emboldened."
+    }
+  ],
+  "importantFigures": [
+    {
+      "name": "Franklin D. Roosevelt (FDR)",
+      "years": "1933-1945",
+      "country": "🇺🇸 United States",
+      "role": "32nd President, 4 terms",
+      "description": "Led USA through Great Depression and WWII. Created New Deal social programs, expanded federal government role. Forged Allied coalition against Axis powers.",
+      "politicalStyle": "Pragmatic liberalism, charismatic communication (fireside chats), coalition-building, willing to expand executive power during crises.",
+      "legacy": "Welfare state foundation, defeated fascism, US global leadership established, social security, regulatory state, liberal internationalism."
+    },
+    {
+      "name": "Adolf Hitler",
+      "years": "1933-1945",
+      "country": "🇩🇪 Nazi Germany",
+      "role": "Führer, Totalitarian Dictator",
+      "description": "Led Nazi Party to power through democratic collapse. Initiated WWII, Holocaust (6 million Jews murdered). Totalitarian ideology combined fascism, racism, expansionism.",
+      "politicalStyle": "Authoritarian populism, propaganda mastery, cult of personality, total control through terror, scapegoating, charismatic mass rallies.",
+      "legacy": "Worst genocide in history, WWII devastation, lesson in democratic fragility, human rights norms created in response, de-Nazification, Germany's pacifist turn."
+    },
+    {
+      "name": "Mao Zedong",
+      "years": "1949-1976",
+      "country": "🇨🇳 China",
+      "role": "Communist Party Chairman, Founder of PRC",
+      "description": "Led Communist revolution, founded People's Republic 1949. Great Leap Forward famine (30M+ deaths), Cultural Revolution chaos. Transformed China into communist state.",
+      "politicalStyle": "Revolutionary ideology, mass mobilization, cult of personality, permanent revolution doctrine, peasant-based communism, purges of rivals.",
+      "legacy": "Unified China under communism, millions died in famines/purges, laid foundation for modern China despite chaos, Maoism influenced global left, still revered officially."
+    },
+    {
+      "name": "Nelson Mandela",
+      "years": "1994-1999",
+      "country": "🇿🇦 South Africa",
+      "role": "First Black President, Anti-Apartheid Leader",
+      "description": "Imprisoned 27 years for fighting apartheid. Led peaceful transition to democracy 1994. Nobel Peace Prize. Symbol of reconciliation and moral leadership.",
+      "politicalStyle": "Reconciliation over revenge, moral authority, inclusive nationalism, forgiveness, coalition-building, truth and reconciliation commission.",
+      "legacy": "Ended apartheid peacefully, model for transitional justice, global icon of freedom, inspirational leadership, South African democracy established (though challenges remain)."
+    },
+    {
+      "name": "John F. Kennedy (JFK)",
+      "years": "1961-1963",
+      "country": "🇺🇸 United States",
+      "role": "35th President",
+      "description": "Youngest elected president. Cuban Missile Crisis averted nuclear war. Initiated civil rights push, space race. Assassinated 1963 in Dallas. Created Camelot mystique.",
+      "politicalStyle": "Charismatic leadership, inspirational rhetoric ('Ask not what your country...'), crisis management, media-savvy, liberal Cold Warrior.",
+      "legacy": "Avoided nuclear war, inspired generation, space program, civil rights progress, assassination trauma, idealized memory, Vietnam escalation began under him."
+    },
+    {
+      "name": "Margaret Thatcher",
+      "years": "1979-1990",
+      "country": "🇬🇧 United Kingdom",
+      "role": "Prime Minister, 'Iron Lady'",
+      "description": "First woman PM of UK. Led conservative revolution: privatization, union-busting, free markets. Close ally of Reagan. Falklands War. Transformed British politics.",
+      "politicalStyle": "Conviction politics, uncompromising, neoliberal economics, strong nationalism, confrontational with opponents, individualism over collectivism.",
+      "legacy": "Neoliberalism implemented, weakened unions, privatized industries, divided legacy (revitalized economy vs increased inequality), shifted Labour Party right."
+    },
+    {
+      "name": "Mikhail Gorbachev",
+      "years": "1985-1991",
+      "country": "🇷🇺 Soviet Union",
+      "role": "General Secretary, Last Soviet Leader",
+      "description": "Introduced glasnost (openness) and perestroika (restructuring). Ended Cold War peacefully. USSR collapsed under his watch 1991. Nobel Peace Prize.",
+      "politicalStyle": "Reformist communist, dialogue over confrontation, allowed dissent, negotiated arms reductions, refused to use force to save empire.",
+      "legacy": "Ended Cold War peacefully, Soviet collapse (unintended), freed Eastern Europe, hated in Russia for empire loss, respected in West, democratic reforms enabled."
+    },
+    {
+      "name": "Saddam Hussein",
+      "years": "1979-2003",
+      "country": "🇮🇶 Iraq",
+      "role": "President, Dictator",
+      "description": "Brutal Ba'athist dictator. Iran-Iraq War (1980-88), invaded Kuwait (1990), Gulf War defeat. Used chemical weapons on Kurds. Overthrown in US invasion 2003, executed 2006.",
+      "politicalStyle": "Authoritarian personalism, cult of personality, brutal repression, secret police state, secular Arab nationalism, patronage networks, Sunni minority rule.",
+      "legacy": "Regional instability, devastating wars, mass graves discovered, Iraq War consequences (sectarian violence, ISIS rise), symbol of Middle East dictatorships."
+    },
+    {
+      "name": "Muammar Gaddafi",
+      "years": "1969-2011",
+      "country": "🇱🇾 Libya",
+      "role": "Revolutionary Leader, Dictator",
+      "description": "Seized power in coup 1969. Idiosyncratic ideology ('Third International Theory'), sponsored terrorism, oil wealth. Arab Spring uprising led to NATO intervention, killed 2011.",
+      "politicalStyle": "Erratic personalism, eccentric ideology, direct democracy rhetoric with authoritarian practice, anti-Western but pragmatic, tribal patronage.",
+      "legacy": "Libya state collapse post-death, civil war, migrant crisis, lesson in intervention failure, Pan-Africanism advocacy, bizarre public persona."
+    },
+    {
+      "name": "Bashar al-Assad",
+      "years": "2000-present",
+      "country": "🇸🇾 Syria",
+      "role": "President, Inherited Dictatorship",
+      "description": "Inherited power from father 2000. Arab Spring protests 2011 led to civil war. Used chemical weapons, barrel bombs on civilians. Survived with Russian/Iranian help. 500K+ dead.",
+      "politicalStyle": "Authoritarian survival, brutal repression, sectarian divide-and-rule (Alawite minority), dependent on Russia/Iran, propaganda, siege warfare.",
+      "legacy": "Massive war crimes, Syria destroyed, refugee crisis, Russian intervention in Middle East, Iran influence, ISIS exploited chaos, ongoing humanitarian catastrophe."
+    },
+    {
+      "name": "Donald Trump",
+      "years": "2017-2021, 2025-present",
+      "country": "🇺🇸 United States",
+      "role": "45th & 47th President",
+      "description": "Business mogul turned populist politician. 'America First' nationalism, trade wars, two impeachments, COVID mismanagement, election denial, Jan 6 Capitol attack, criminal indictments, reelected 2024.",
+      "politicalStyle": "Populist authoritarianism, norm-breaking, Twitter/social media politics, rally showmanship, media manipulation, personal loyalty over institutions, transactional.",
+      "legacy": "Democratic backsliding, MAGA movement, reshaped Republican Party, Supreme Court conservatives, US alliances strained, polarization extreme, testing democratic limits."
+    },
+    {
+      "name": "Xi Jinping",
+      "years": "2012-present",
+      "country": "🇨🇳 China",
+      "role": "General Secretary, President (term limits removed)",
+      "description": "Most powerful Chinese leader since Mao. Belt and Road Initiative, tech authoritarianism, Xinjiang camps, Hong Kong crackdown, Taiwan threats, zero-COVID. Consolidated power through anti-corruption purges.",
+      "politicalStyle": "Authoritarian consolidation, personality cult ('Xi Jinping Thought'), surveillance state, nationalism, centralization, intolerance of dissent, assertive foreign policy.",
+      "legacy": "China's rise challenged US, tech authoritarianism model, Uyghur genocide, Belt and Road debt diplomacy, ended term limits (potential leader for life), great power rivalry."
+    },
+    {
+      "name": "Angela Merkel",
+      "years": "2005-2021",
+      "country": "🇩🇪 Germany",
+      "role": "Chancellor, 'Leader of the Free World'",
+      "description": "Longest-serving German chancellor. Eurozone crisis manager, refugee crisis (1M+ accepted 2015), Brexit negotiator, climate advocate. Steady leadership during crises.",
+      "politicalStyle": "Pragmatic centrism, consensus-building, cautious incrementalism, scientific rationalism (physicist background), coalition management, non-charismatic but competent.",
+      "legacy": "EU stabilized, Germany prospered, refugee policy controversial, Russian energy dependence mistake, moral leadership in West, peaceful power transitions."
+    },
+    {
+      "name": "Vladimir Putin",
+      "years": "2000-present",
+      "country": "🇷🇺 Russia",
+      "role": "President/PM, Authoritarian Leader",
+      "description": "Former KGB officer. Centralized power, crushed opposition, enriched oligarchs, annexed Crimea 2014, invaded Ukraine 2022. Nuclear threats, propaganda mastery.",
+      "politicalStyle": "Authoritarian personalism, KGB methods, nationalism, siloviki dominance, media control, political murders, managed democracy facade, great power restoration.",
+      "legacy": "Destroyed Russian democracy, Ukraine war catastrophe, NATO expansion, isolated Russia, economic stagnation, repression, nuclear brinkmanship, historic miscalculation."
+    },
+    {
+      "name": "Volodymyr Zelensky",
+      "years": "2019-present",
+      "country": "🇺🇦 Ukraine",
+      "role": "President, Wartime Leader",
+      "description": "Former comedian elected 2019 on anti-corruption platform. Became global symbol of resistance when Russia invaded 2022. 'I need ammunition, not a ride' statement iconic. Wartime leadership.",
+      "politicalStyle": "Communication mastery, media savvy (TV background), moral authority, personal courage (stayed in Kyiv), international lobbying, social media native.",
+      "legacy": "Ukrainian national unity, inspired democratic resistance, revitalized NATO, exposed Russian weakness, global celebrity, long-term outcome uncertain."
+    }
+  ],
   "quiz": [
     {
       "question": "Which concept describes a state's right to control its internal affairs without external interference?",
@@ -131,6 +432,16 @@
       "question": "What type of power refers to attraction through culture and values rather than coercion?",
       "options": ["Hard power", "Soft power", "Smart power", "Military power"],
       "answer": "Soft power"
+    },
+    {
+      "question": "Which crisis marked the closest the world came to nuclear war during the Cold War?",
+      "options": ["Berlin Crisis", "Cuban Missile Crisis", "Korean War", "Vietnam War"],
+      "answer": "Cuban Missile Crisis"
+    },
+    {
+      "question": "Which region has the highest democracy score in 2026?",
+      "options": ["Middle East", "Sub-Saharan Africa", "North America", "Russia & Central Asia"],
+      "answer": "North America"
     }
   ]
 }
