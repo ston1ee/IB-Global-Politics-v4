@@ -1,0 +1,136 @@
+{
+  "concepts": [
+    {
+      "term": "Power",
+      "definition": "The ability of an actor to influence others and achieve desired outcomes. Can be hard power (military/economic coercion) or soft power (attraction through culture, values, policies)."
+    },
+    {
+      "term": "Sovereignty",
+      "definition": "A state's supreme authority over its territory and domestic affairs, free from external interference. Core principle of the Westphalian system established in 1648."
+    },
+    {
+      "term": "Legitimacy",
+      "definition": "The rightfulness and acceptance of power or authority. Can be derived from democratic elections, tradition, performance, or international recognition."
+    },
+    {
+      "term": "Interdependence",
+      "definition": "Mutual reliance among actors through trade, finance, communication, and institutions. Creates both cooperation opportunities and vulnerability to external shocks."
+    }
+  ],
+  "theories": [
+    {
+      "name": "Realism",
+      "summary": "Views states as rational actors in an anarchic international system pursuing survival and power. Conflict is inevitable; cooperation is limited and temporary. Key thinkers: Thucydides, Machiavelli, Morgenthau, Waltz."
+    },
+    {
+      "name": "Liberalism",
+      "summary": "Argues cooperation is possible through international institutions, trade, democracy, and law. Interdependence creates incentives for peace. Key thinkers: Kant, Wilson, Keohane, Nye."
+    },
+    {
+      "name": "Constructivism",
+      "summary": "Emphasizes that norms, identities, ideas, and culture shape state interests and behavior. The international system is socially constructed, not fixed. Key thinkers: Wendt, Finnemore, Katzenstein."
+    }
+  ],
+  "powers": [
+    {
+      "actor": "🇺🇸 United States",
+      "gdpRank": "#1",
+      "militarySpending": "$877B (highest)",
+      "note": "Global military reach, NATO leader, economic hegemon. Faces challenges from rising China and domestic polarization."
+    },
+    {
+      "actor": "🇨🇳 China",
+      "gdpRank": "#2",
+      "militarySpending": "$292B (2nd)",
+      "note": "Rising power with Belt and Road Initiative, Indo-Pacific focus. Tensions over Taiwan, South China Sea, trade."
+    },
+    {
+      "actor": "🇪🇺 European Union",
+      "gdpRank": "#3 (combined)",
+      "militarySpending": "€326B combined",
+      "note": "Economic giant, regulatory superpower. Challenges: energy security, unity, defense coordination."
+    },
+    {
+      "actor": "🇷🇺 Russia",
+      "gdpRank": "#11",
+      "militarySpending": "$109B (3rd)",
+      "note": "Regional military power with nuclear arsenal. Ukraine war has reshaped European security landscape."
+    },
+    {
+      "actor": "🇮🇳 India",
+      "gdpRank": "#4",
+      "militarySpending": "$81.4B (4th)",
+      "note": "Fastest-growing major economy, rising diplomatic influence. Border tensions with China and Pakistan."
+    },
+    {
+      "actor": "🇯🇵 Japan",
+      "gdpRank": "#5",
+      "militarySpending": "$46B",
+      "note": "Economic power with expanding defense role. Key US ally in Asia-Pacific balancing against China."
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Russia–Ukraine War",
+      "type": "Interstate / Territorial",
+      "note": "Major European security crisis since 2014, full-scale invasion February 2022. Projected 28,300 battle deaths in 2026. Reshaped NATO, European energy policy, and global food security."
+    },
+    {
+      "name": "Israel–Palestine (Gaza)",
+      "type": "Protracted Conflict",
+      "note": "Deep dispute over land, security, and recognition. October 2023 escalation caused massive humanitarian crisis. Projected 7,700 deaths in 2026. Central to Middle East stability."
+    },
+    {
+      "name": "Sudan Civil War",
+      "type": "Internal Conflict",
+      "note": "Power struggle between RSF and SAF since April 2023. Severe humanitarian crisis with 10+ million displaced. Projected 4,300 deaths in 2026. Regional instability threat."
+    },
+    {
+      "name": "Myanmar Civil War",
+      "type": "Internal Conflict",
+      "note": "Military coup February 2021 triggered nationwide resistance. Ethnic armed groups vs. military junta. Major humanitarian crisis with limited international response."
+    },
+    {
+      "name": "Taiwan Strait Tensions",
+      "type": "Potential Flashpoint",
+      "note": "Rising tensions between China and US-aligned actors over Taiwan's status. Most dangerous potential conflict zone. Critical for global semiconductor supply chains."
+    },
+    {
+      "name": "Syria",
+      "type": "Protracted Conflict",
+      "note": "Civil war since 2011 involving Assad regime, rebels, ISIS remnants, Kurdish forces, Turkey, Russia, Iran. 500,000+ deaths. Massive refugee crisis affecting Europe and Middle East."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which concept describes a state's right to control its internal affairs without external interference?",
+      "options": ["Power", "Sovereignty", "Interdependence", "Legitimacy"],
+      "answer": "Sovereignty"
+    },
+    {
+      "question": "Which theory sees international politics mainly as a struggle for power in an anarchic system?",
+      "options": ["Realism", "Liberalism", "Constructivism", "Marxism"],
+      "answer": "Realism"
+    },
+    {
+      "question": "Which country has the highest military spending in 2026?",
+      "options": ["China", "Russia", "United States", "European Union"],
+      "answer": "United States"
+    },
+    {
+      "question": "Which theory emphasizes that ideas, norms, and identities shape state behavior?",
+      "options": ["Realism", "Liberalism", "Constructivism", "Neorealism"],
+      "answer": "Constructivism"
+    },
+    {
+      "question": "Which conflict is projected to have the most battle deaths in 2026?",
+      "options": ["Syria", "Sudan", "Russia-Ukraine War", "Gaza"],
+      "answer": "Russia-Ukraine War"
+    },
+    {
+      "question": "What type of power refers to attraction through culture and values rather than coercion?",
+      "options": ["Hard power", "Soft power", "Smart power", "Military power"],
+      "answer": "Soft power"
+    }
+  ]
+}

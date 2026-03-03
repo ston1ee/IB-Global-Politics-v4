@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IB Global Politics v4 – Core Map</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>IB Global Politics – Core Map (v4)</h1>
+    <p class="subtitle">From beginner to expert: Essential concepts, theories, powers & conflicts</p>
+    <nav>
+      <button data-section="concepts">Key Concepts</button>
+      <button data-section="theories">Theories</button>
+      <button data-section="powers">Major Powers</button>
+      <button data-section="conflicts">Major Conflicts</button>
+      <button data-section="quiz">Quick Quiz</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="concepts" class="page active">
+      <h2>Core Concepts</h2>
+      <p class="intro">These four concepts form the foundation of IB Global Politics analysis:</p>
+      <ul id="concept-list"></ul>
+    </section>
+
+    <section id="theories" class="page">
+      <h2>Main Theories</h2>
+      <p class="intro">Three major lenses for understanding international relations:</p>
+      <div id="theory-cards"></div>
+    </section>
+
+    <section id="powers" class="page">
+      <h2>Major Global Powers</h2>
+      <p class="intro">Key state and non-state actors shaping global politics in 2026:</p>
+      <table id="powers-table">
+        <thead>
+          <tr>
+            <th>Actor</th>
+            <th>GDP Rank</th>
+            <th>Military Spending</th>
+            <th>Key Notes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section id="conflicts" class="page">
+      <h2>Key Conflicts (2026 Focus)</h2>
+      <p class="intro">Major ongoing conflicts and flashpoints:</p>
+      <ul id="conflict-list"></ul>
+    </section>
+
+    <section id="quiz" class="page">
+      <h2>Quick Concept Quiz</h2>
+      <p class="intro">Test your understanding of core IB Global Politics concepts:</p>
+      <div id="quiz-container"></div>
+      <button id="check-answers">Check Answers</button>
+      <p id="quiz-result"></p>
+    </section>
+  </main>
+
+  <footer>
+    <small>IB Global Politics v4 – Compact learning tool | Created for Herlufsholm STX 3.g | March 2026</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
